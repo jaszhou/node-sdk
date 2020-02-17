@@ -112,6 +112,7 @@
     "test-integration": "jest test/integration",
     "test-unit": "jest test/unit/",
     "test": "jest test/",
+    "start": "node index.js",
     "test-unit-travis": "jest --silent --runInBand test/unit/",
     "test-integration-travis": "jest --silent --runInBand --no-colors --testNamePattern='^((?!@slow).)*$' --json test/integration > test-output.log",
     "report-coverage": "codecov",
